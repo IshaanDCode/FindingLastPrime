@@ -24,8 +24,6 @@ void findLastPrimeNumber(int t)
     {
         if (checkPrimeNumnber(i))
         {
-            cout << i;
-            cout << " Last Prime Number\n";
 
             break;
         }
@@ -34,7 +32,6 @@ void findLastPrimeNumber(int t)
 
 int main() {
     int n;
-    cout << "Input a number to find the prime number before it\n";
     cin >> n;
 
     findLastPrimeNumber(n);
